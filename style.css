@@ -37,13 +37,7 @@ body{
     padding:10px;
 }
 
-#education,#projects{
-    margin-right: 5px;
-}
 
-#skills,#experience{
-    margin-left: 5px;
-}
 
 .proj-es,.exp-es,.edu-es,.skl-es,.hobi{
     background-color: var(--co1);
@@ -54,6 +48,7 @@ body{
 
 .hobi{
     display: inline-block;
+    padding:3px;
 }
 
 h4{
