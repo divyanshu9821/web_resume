@@ -64,9 +64,14 @@ h6{
 
 body{
     background-color: var(--co3);
-    max-width: 400px;
-    margin:auto;
     font-family: barlow;
+}
+
+@media (min-width:500px) {
+    body{
+        max-width: 400px;
+        margin:auto;
+    }
 }
 
 #title{
