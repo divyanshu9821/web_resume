@@ -67,7 +67,7 @@ body{
     font-family: barlow;
 }
 
-@media (min-width:500px) {
+@media (min-width:1000px) {
     body{
         max-width: 400px;
         margin:auto;
