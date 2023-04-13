@@ -1,0 +1,127 @@
+/* color pallete */
+:root{
+    /* --co1:#FFF2F2;
+    --co2:#E5E0FF;
+    --co3:#8EA7E9;
+    --co4:#7286D3; */
+
+    --co4:#CDBBA7;
+    --co3:#DAD0C2;
+    --co2:#F4DFD0;
+    --co1:#FDEFEF;
+}
+
+
+/* structure */
+#title,#profile,#projects,#experience,#education,#skills,.proj-item,.exp-item,.edu-item,.skl-cat,#hobbies{
+    padding: 8px;
+    border-radius: 8px;
+    margin:8px 0px;
+}
+
+.address,.phone,.email,.linkedin,.github,.codechef{
+    display: inline-block;
+    margin:5px;
+}
+
+h4,h6{
+    margin:0px;
+}
+
+h4{
+    font-size: 1rem;
+}
+
+h6{
+    font-size: large;
+}
+
+#name{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+/* title */
+.skl-item,.year,.hobi-item{
+    display: inline-block;
+    border-radius: 5px;
+    padding:3px;
+    font-size: small;
+    margin:2px auto;
+}
+
+.proj-desc,.exp-desc,.edu-desc{
+    margin:10px 0px;
+}
+
+/* .skl-cat h6{
+    margin-bottom:10px;
+} */
+
+#experience h6,#education h6{
+    display: inline-block;
+}
+
+body{
+    background-color: var(--co3);
+    max-width: 400px;
+    margin:auto;
+    font-family: barlow;
+}
+
+#title{
+    background-color: black;
+    color:white;
+}
+
+#profile,#projects,#experience,#education,#skills,#hobbies{
+    background-color: var(--co1);
+}
+
+.proj-item,.exp-item,.edu-item,.skl-cat{
+    background-color: var(--co3);
+}
+
+.skl-item{
+    background-color: white;
+}
+
+.year{
+    background-color: var(--co4);
+    color:var(--co1);
+}
+
+.hobi-item{
+    font-size: large;
+    background-color: var(--co3);
+
+}
+
+.prof-desc{
+    background-color: var(--co3);
+    border-radius: 8px;
+    padding:8px;
+    margin-top: 5px;
+}
+
+#hobbies{
+    background-color: var(--co4);
+}
+
+/*
+#experience{
+
+}
+
+#education{
+
+}
+
+#skills{
+
+}
+
+#hobbies{
+
+} 
+*/
