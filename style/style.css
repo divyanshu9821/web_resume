@@ -13,7 +13,7 @@
 
 
 /* structure */
-#title,#profile,#projects,#experience,#education,#skills,.proj-item,.exp-item,.edu-item,.skl-cat,#hobbies{
+#title,#profile,#projects,#extra,#education,#skills,.proj-item,.exp-item,.edu-item,.skl-cat,#hobbies{
     padding: 8px;
     border-radius: 8px;
     margin:8px 0px;
@@ -58,7 +58,7 @@ h6{
     margin-bottom:10px;
 } */
 
-#experience h6,#education h6{
+#extra h6,#education h6{
     display: inline-block;
 }
 
@@ -79,7 +79,7 @@ body{
     color:white;
 }
 
-#profile,#projects,#experience,#education,#skills,#hobbies{
+#profile,#projects,#extra,#education,#skills,#hobbies{
     background-color: var(--co1);
 }
 
@@ -114,7 +114,7 @@ body{
 }
 
 /*
-#experience{
+#extra{
 
 }
 
