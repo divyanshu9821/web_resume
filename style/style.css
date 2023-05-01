@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: var(--co1);
+    background-color: wheat;
     font-family:poppins;
     /* font-family: barlow; */
 }
@@ -28,13 +28,16 @@ body{
     color:white;
 }
 
-
+h1{
+    font-size: 4rem;
+}
 
 #projects,#experience,#education,#skills{
     background-color: var(--co3);
     color: var(--co4);
     border-radius: 10px;
     padding:10px;
+    margin:0px 5px;
 }
 
 
@@ -68,7 +71,8 @@ h6{
 }
 
 #middle-section,#bottom-section{
-    margin:10px; 
+    padding:0px 5px;
+    margin:10px 0px;
 }
 .text-bg-primary{
     margin:3px 0px;
